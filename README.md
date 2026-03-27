@@ -2,10 +2,10 @@
 [NVIDIA Developer Blog](https://developer.nvidia.com/blog/implementing-robotics-applications-with-ros-2-and-ai-on-jetson-platform-2/)
 
 ## ROS2 wrapper for Jetson Stats (jtop)
-This repository takes inspiration from [ROS-jtop](https://github.com/rbonghi/ros_jetson_stats) and creates package for ros2 (currently tested on eloquent)
+This repository takes inspiration from [ROS-jtop](https://github.com/rbonghi/ros_jetson_stats) and creates package for ROS2
 
 ## Pre-requisite
-ROS2 Eloquent [Install Guide](https://index.ros.org/doc/ros2/Installation/Eloquent/Linux-Development-Setup/)
+ROS2 Humble [Install Guide](https://docs.ros.org/en/humble/Installation.html)
 
 ## Set up
 1. Install Jetson Stats: <br/>
@@ -14,7 +14,7 @@ ROS2 Eloquent [Install Guide](https://index.ros.org/doc/ros2/Installation/Eloque
 ``` cd dev_ws/src``` <br/>
 ``` git clone https://github.com/NVIDIA-AI-IOT/ros2_jetson_stats.git``` <br/>
 3. Build
-``` sudo rosdep install --from-paths ros2_jtop --ignore-src --rosdistro eloquent -y ``` <br/>
+``` sudo rosdep install --from-paths ros2_jtop --ignore-src --rosdistro humble -y ``` <br/>
 ``` colcon build ``` <br/>
 ``` . install/setup.bash ```<br/>
 
