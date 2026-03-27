@@ -240,7 +240,7 @@ def fan_status(hardware, name, fan):
         values=[
             KeyValue(key='Mode', value=str(fan['profile'])),
             KeyValue(key="Speed", value=str(fan['speed'])),
-            KeyValue(key="Control", value=str(fan['control'])),
+            KeyValue(key="RPM", value=str(fan['rpm'])),
         ])
     return d_fan
 
