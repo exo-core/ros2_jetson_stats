@@ -1,0 +1,47 @@
+#Build artifacts
+*.build
+build
+install
+log
+__pycache__
+
+# Python byte code
+*.pyc
+
+# Clion
+.idea
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Qt Creator generated files
+*.pro.user*
+*.user
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio Code
+.vscode/*
+!.vscode/tasks.json
+.history
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+
+# XEmacs temporary files
+*.flc
